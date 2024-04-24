@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+/* Reset styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Body styles */
+body {
+  font-family: Inter, sans-serif;
+  background-color: #fdebd3; /* Light peach */
+  color: #333;
+ 
+}
+
+/* Header block */
+.header {
+  background-color: #ffa500; /* Orange */
+  color: #fff;
+  padding: 20px 0;
+  text-align: center;
+}
+
+.header__title {
+  font-size: 2rem;
+}
+
+/* Main block */
+.main {
+  max-width: 800px;
+  margin: 20px auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.container {
+  max-width: 80%;
+  margin: 0 auto;
+  padding: 1rem auto;
+}
+
+.intro,
+.qa,
+.chiang-mai {
+  width: 100%;
+}
+/* Intro section block */
+.intro {
+  background-color: #fdfd96; /* Yellow */
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 10px;
+  text-align: justify;
+}
+
+.intro__title {
+  font-size: 1.5rem;
+  margin-bottom: 15px;
+}
+
+.intro__image-container {
+  position: relative;
+  width: 200px;
+  margin: 0 auto 15px;
+}
+
+
+
+.intro__image {
+  width: 100%;
+  border-radius: 50%;
+  border: 4px solid white;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4)
+
+}
+
+.intro__text {
+  margin-bottom: 15px;
+  text-align: justify;
+}
+
+/* Q&A section block */
+.qa {
+  background-color: #87cefa; /* Sky blue */
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 10px;
+  text-align: justify;
+}
+
+.qa__title {
+  font-size: 1.5rem;
+  margin-bottom: 15px;
+}
+
+.qa__question {
+  font-weight: bold;
+  margin-top: 2rem;
+}
+
+.qa__answer {
+  margin-bottom: 1rem;
+}
+
+.qa__image {
+  width: 150px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4)
+}
+.chiang-mai {
+  background-color: #a4f08a; /* Light green */
+  padding: 20px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+.chiang-mai__description{
+  margin:  1rem auto;
+}
+
+/* Footer block */
+
+.footer {
+  background-color: #20b2aa; /* Light sea green */
+  color: #fff;
+  padding: 10px 0;
+  text-align: center;
+}
+
+.footer__copyright {
+  font-size: 0.8rem;
+}
+
+/* Additional element modifiers */
+.footer__location,
+.footer__google-link {
+  margin-bottom: 10px;
+}
+
+.footer__google-link a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.footer__google-link a:hover {
+  text-decoration: underline;
+}
